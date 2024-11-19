@@ -1,0 +1,17 @@
+test0001: fail
+test0002: fail
+test0003: fail
+test0004: fail
+test0005: complete - default paramfile - ended 2014
+test0006: double spinup - default paramfile
+test0007: default paramfile to 2023 
+test0008: double spin-up with wave2 paramfile
+test0009: single spinup with wave2 paramfile (same as test0008)
+test0010: double spinup with leafcn max
+test0011: double spinup with xl at max
+test0012: single spinup with identical paramfile as keith's spinup
+test0013: single spinup with identical paramfile as Keith's spinup + reseed_dead_plants=.false.
+test0014: single spinup with leafcn max + reseed_dead_plants=.false.
+test0015: double spinup with leafcn max + reseed_dead_plants=.false.
+test0016: single spinup with xl max + reseed_dead_plants=.false.
+test0017: double spinup with xl max + reseed_dead_plants=.false

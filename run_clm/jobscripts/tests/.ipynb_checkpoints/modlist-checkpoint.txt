@@ -1,0 +1,7 @@
+/glade/u/home/linnia/clm5ppe/jobscripts/PPEn13/mods/finidat.sh
+/glade/u/home/linnia/clm5ppe/jobscripts/PPEn13/mods/finidat.sh
+/glade/u/home/linnia/clm5ppe/jobscripts/PPEn13/mods/finidat.sh
+/glade/u/home/linnia/clm5ppe/jobscripts/PPEn13/mods/finidat.sh
+/glade/u/home/linnia/clm5ppe/jobscripts/PPEn13/mods/part1.sh
+/glade/u/home/linnia/clm5ppe/jobscripts/PPEn13/mods/part2.sh
+/glade/u/home/linnia/clm5ppe/jobscripts/PPEn13/mods/part3.sh

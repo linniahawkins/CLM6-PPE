@@ -20,8 +20,13 @@
 calc_human_stress_indices = 'NONE'
 use_init_interp = .true.
 reseed_dead_plants = .true.
-hist_fincl1 = 'TOTECOSYSC', 'TOTECOSYSN', 'TOTSOMC', 'TOTSOMN', 'TOTVEGC', 'TOTVEGN', 'TLAI', 'GPP', 'CPOOL', 'NPP', 'TWS', 'H2OSNO', 'TOTSOMC_1m'
+
+hist_mfilt = 120
 hist_dov2xy = .false.
 hist_type1d_pertape = 'GRID'
-clm_start_type = 'startup' 
-finidat = '/glade/derecho/scratch/slevis/ctsm52026_f09_pSASU/run/ctsm52026_f09_pSASU.clm2.r.0421-01-01-00000.nc'
+hist_fincl1 = 'TOTECOSYSC', 'TOTECOSYSN', 'TOTSOMC', 'TOTSOMN', 'TOTVEGC', 'TOTVEGN', 'TLAI', 'GPP', 'CPOOL', 'NPP', 'NBP', 'TWS', 'H2OSNO', 'TOTSOMC_1m'
+
+
+clm_start_type = 'startup'
+do_grossunrep = .false.  ! turn off shifting cultivation
+fsurdat = '/glade/derecho/scratch/slevis/temp_work/new_rawdata/tools/mksurfdata_esmf/surfdata_1.9x2.5_hist_1850_16pfts_c240926.nc'

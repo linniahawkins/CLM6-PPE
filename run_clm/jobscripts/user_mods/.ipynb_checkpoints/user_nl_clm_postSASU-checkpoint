@@ -18,9 +18,18 @@
 ! Set glc_do_dynglacier  with GLC_TWO_WAY_COUPLING               env variable
 !----------------------------------------------------------------------------------
 calc_human_stress_indices = 'NONE'
-hist_fincl1 = 'TOTECOSYSC', 'TOTECOSYSN', 'TOTSOMC', 'TOTSOMN', 'TOTVEGC', 'TOTVEGN', 'TLAI', 'GPP', 'CPOOL', 'NPP', 'TWS', 'H2OSNO', 'CWDC', 'TOTSOMC_1m'
+reseed_dead_plants = .true.
+use_init_interp = .true.
+clm_start_type = 'startup'
+
+hist_mfilt = 120
 hist_dov2xy = .false.
 hist_type1d_pertape = 'GRID'
+hist_fincl1 = 'TOTECOSYSC', 'TOTECOSYSN', 'TOTSOMC', 'TOTSOMN', 'TOTVEGC', 'TOTVEGN', 'TLAI', 'GPP', 'CPOOL', 'NPP', 'NBP', 'TWS', 'H2OSNO', 'TOTSOMC_1m'
+
+do_grossunrep = .false.  ! turn off shifting cultivation
+fsurdat = '/glade/derecho/scratch/slevis/temp_work/new_rawdata/tools/mksurfdata_esmf/surfdata_1.9x2.5_hist_1850_16pfts_c240926.nc'
 
 use_matrixcn = .true.
 use_soil_matrixcn = .true.
+
