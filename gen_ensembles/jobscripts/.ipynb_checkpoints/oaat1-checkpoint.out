@@ -1,0 +1,45 @@
+ Successfully created new case ctsm5.3.0_transient_AD_oaat0000 from clone case ctsm5.3.0_transient_AD 
+job is case.run USER_REQUESTED_WALLTIME 03:00:00 USER_REQUESTED_QUEUE None WALLTIME_FORMAT %H:%M:%S
+Creating batch scripts
+Writing case.run script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.case.run
+Creating file .case.run
+Writing case.st_archive script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.st_archive
+Creating file case.st_archive
+If an old case build already exists, might want to run 'case.build --clean' before building
+You can now run './preview_run' to get more info on how your case will be run
+ Successfully created new case ctsm5.3.0_transient_SASU_oaat0000 from clone case ctsm5.3.0_transient_SASU 
+job is case.run USER_REQUESTED_WALLTIME 06:00:00 USER_REQUESTED_QUEUE None WALLTIME_FORMAT %H:%M:%S
+Creating batch scripts
+Writing case.run script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.case.run
+Creating file .case.run
+Writing case.st_archive script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.st_archive
+Creating file case.st_archive
+If an old case build already exists, might want to run 'case.build --clean' before building
+You can now run './preview_run' to get more info on how your case will be run
+ Successfully created new case ctsm5.3.0_transient_postSASU_oaat0000 from clone case ctsm5.3.0_transient_postSASU 
+job is case.run USER_REQUESTED_WALLTIME 06:00:00 USER_REQUESTED_QUEUE None WALLTIME_FORMAT %H:%M:%S
+Creating batch scripts
+Writing case.run script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.case.run
+Creating file .case.run
+Writing case.st_archive script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.st_archive
+Creating file case.st_archive
+If an old case build already exists, might want to run 'case.build --clean' before building
+You can now run './preview_run' to get more info on how your case will be run
+ Successfully created new case ctsm5.3.0_transient_oaat0000 from clone case ctsm5.3.0_transient 
+job is case.run USER_REQUESTED_WALLTIME 10:00:00 USER_REQUESTED_QUEUE None WALLTIME_FORMAT %H:%M:%S
+Creating batch scripts
+Writing case.run script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.case.run
+Creating file .case.run
+Writing case.st_archive script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.st_archive
+Creating file case.st_archive
+If an old case build already exists, might want to run 'case.build --clean' before building
+You can now run './preview_run' to get more info on how your case will be run
+  2024-10-21 17:10:58 atm 
+Create namelist for component datm
+   Calling /glade/work/linnia/ctsm5.3.0/components/cdeps/datm/cime_config/buildnml
+  2024-10-21 17:10:59 lnd 
+Create namelist for component clm
+   Calling /glade/work/linnia/ctsm5.3.0/cime_config/buildnml
+IMPORTANT NOTE: LND_TUNING_MODE is clm6_0_CRUv7 which does NOT have tuned settings, so using the closest option which is clm6_0_GSWP3v1
+              : To suppress this message explicitly set LND_TUNING_MODE=clm6_0_CRUv7 for your case
+NOTE: LND_TUNING_MODE is clm6_0_GSWP3v1 which is NOT tuned, but is based on clm5_0_GSWP3v1

@@ -1,0 +1,86 @@
+ Successfully created new case ctsm5.3.0_transient_AD_test0007 from clone case ctsm5.3.0_transient_AD 
+job is case.run USER_REQUESTED_WALLTIME 03:00:00 USER_REQUESTED_QUEUE None WALLTIME_FORMAT %H:%M:%S
+Creating batch scripts
+Writing case.run script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.case.run
+Creating file .case.run
+Writing case.st_archive script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.st_archive
+Creating file case.st_archive
+If an old case build already exists, might want to run 'case.build --clean' before building
+You can now run './preview_run' to get more info on how your case will be run
+ Successfully created new case ctsm5.3.0_transient_SASU_test0007 from clone case ctsm5.3.0_transient_SASU 
+job is case.run USER_REQUESTED_WALLTIME 06:00:00 USER_REQUESTED_QUEUE None WALLTIME_FORMAT %H:%M:%S
+Creating batch scripts
+Writing case.run script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.case.run
+Creating file .case.run
+Writing case.st_archive script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.st_archive
+Creating file case.st_archive
+If an old case build already exists, might want to run 'case.build --clean' before building
+You can now run './preview_run' to get more info on how your case will be run
+ Successfully created new case ctsm5.3.0_transient_postSASU_test0007 from clone case ctsm5.3.0_transient_postSASU 
+job is case.run USER_REQUESTED_WALLTIME 03:00:00 USER_REQUESTED_QUEUE None WALLTIME_FORMAT %H:%M:%S
+Creating batch scripts
+Writing case.run script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.case.run
+Creating file .case.run
+Writing case.st_archive script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.st_archive
+Creating file case.st_archive
+If an old case build already exists, might want to run 'case.build --clean' before building
+You can now run './preview_run' to get more info on how your case will be run
+ Successfully created new case ctsm5.3.0_transient_test0007 from clone case ctsm5.3.0_transient 
+job is case.run USER_REQUESTED_WALLTIME 10:00:00 USER_REQUESTED_QUEUE None WALLTIME_FORMAT %H:%M:%S
+Creating batch scripts
+Writing case.run script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.case.run
+Creating file .case.run
+Writing case.st_archive script from input template /glade/work/linnia/ctsm5.3.0/ccs_config/machines/template.st_archive
+Creating file case.st_archive
+If an old case build already exists, might want to run 'case.build --clean' before building
+You can now run './preview_run' to get more info on how your case will be run
+  2024-10-30 10:08:49 atm 
+Create namelist for component datm
+   Calling /glade/work/linnia/ctsm5.3.0/components/cdeps/datm/cime_config/buildnml
+  2024-10-30 10:08:49 lnd 
+Create namelist for component clm
+   Calling /glade/work/linnia/ctsm5.3.0/cime_config/buildnml
+IMPORTANT NOTE: LND_TUNING_MODE is clm6_0_CRUv7 which does NOT have tuned settings, so using the closest option which is clm6_0_GSWP3v1
+              : To suppress this message explicitly set LND_TUNING_MODE=clm6_0_CRUv7 for your case
+NOTE: LND_TUNING_MODE is clm6_0_GSWP3v1 which is NOT tuned, but is based on clm5_0_GSWP3v1
+  2024-10-30 10:08:50 ice 
+Create namelist for component sice
+   Calling /glade/work/linnia/ctsm5.3.0/cime/CIME/non_py/src/components/stub_comps_nuopc/sice/cime_config/buildnml
+  2024-10-30 10:08:50 ocn 
+Create namelist for component socn
+   Calling /glade/work/linnia/ctsm5.3.0/cime/CIME/non_py/src/components/stub_comps_nuopc/socn/cime_config/buildnml
+  2024-10-30 10:08:50 rof 
+Create namelist for component srof
+   Calling /glade/work/linnia/ctsm5.3.0/cime/CIME/non_py/src/components/stub_comps_nuopc/srof/cime_config/buildnml
+  2024-10-30 10:08:50 glc 
+Create namelist for component sglc
+   Calling /glade/work/linnia/ctsm5.3.0/cime/CIME/non_py/src/components/stub_comps_nuopc/sglc/cime_config/buildnml
+  2024-10-30 10:08:50 wav 
+Create namelist for component swav
+   Calling /glade/work/linnia/ctsm5.3.0/cime/CIME/non_py/src/components/stub_comps_nuopc/swav/cime_config/buildnml
+  2024-10-30 10:08:50 esp 
+Create namelist for component sesp
+   Calling /glade/work/linnia/ctsm5.3.0/cime/CIME/non_py/src/components/stub_comps_nuopc/sesp/cime_config/buildnml
+  2024-10-30 10:08:50 cpl 
+Create namelist for component drv
+   Calling /glade/work/linnia/ctsm5.3.0/components/cmeps/cime_config/buildnml
+Writing nuopc_runconfig for components ['CPL', 'ATM', 'LND']
+Checking that inputdata is available as part of case submission
+Loading input file list: 'Buildconf/ctsm.input_data_list'
+Loading input file list: 'Buildconf/cpl.input_data_list'
+Loading input file list: 'Buildconf/datm.input_data_list'
+Check case OK
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q main -l walltime=03:00:00 -A P93300641 -l job_priority=regular -v ARGS_FOR_SCRIPT='--completion-sets-continue-run' .case.run
+Submitted job id is 6483030.desched1
+Submitted job case.run with id 6483030.desched1
+/glade/work/linnia/ctsm5.3.0/cime/scripts/transient/ctsm5.3.0_transient_AD/ctsm5.3.0_transient_AD_test0007
+qsub: Account is in state: Exceed One Threshold 
+ available accounts:
+Project, Status, Active
+P93300641, Normal, True
+P93300041, Overspent, True
+UWAS0155, Normal, True
+P08010000, Exceed One Threshold, True
+
